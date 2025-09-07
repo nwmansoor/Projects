@@ -1,11 +1,7 @@
 import subprocess
 
-#Pass_List = subprocess.run(f"netsh wlan show profile name=\"{SSID}\"", capture_output=True, text=True)
-
-
-#netsh wlan show profile name = "ENTER NETWORK NAME HERE" key=clear | find "Key Content"
-# First have it print out all the saved SSID names
-# Then iterate through each SSID and have it run the netsh command
+# Prints out all the saved SSID names
+# Then iterates through each SSID and have it run the netsh command
 # Exfiltrate the password and format it where it prints out the SSID and passwd into a .txt file
 
 SSID_List = subprocess.run("netsh wlan show profile", capture_output=True, text=True)
