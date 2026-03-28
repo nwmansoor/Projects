@@ -3,7 +3,7 @@ This Directory is for all my automation related projects.
 +--------------------+
 |    CYBERSECURITY:  |
 +--------------------+
-- Automated Wi-Fi Password Enumeration Script (PassScript.py)
+- Replicating Cybersecurity TTPs via Automated Wi-Fi Password Enumeration Script (PassScript.py)
 
 
 
